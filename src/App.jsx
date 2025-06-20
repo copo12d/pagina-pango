@@ -1,8 +1,20 @@
 import './App.css'
+
 function App() {
 
   return (
-    <h1 className='text-3xl font-bold underline'>Te voy a tocar</h1>
+    <>
+      <nav className='nav-bar'>
+        <ul className='nav-items'>
+          <li>lorem</li>
+          <li>lorem</li>
+          <li>lorem</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>      
+      <h1 className=''>Te voy a tocar</h1>
+    </>
+    
   )
 }
 
