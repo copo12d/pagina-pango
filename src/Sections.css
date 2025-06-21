@@ -1,0 +1,46 @@
+.bg-color-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #dfe5e1;
+  background: linear-gradient(
+    90deg,
+    rgba(223, 229, 225, 1) 0%,
+    rgba(225, 222, 213, 1) 50%,
+    rgba(252, 248, 239, 1) 100%
+  );
+  height: 90vh;
+  margin-bottom: 8px;
+}
+.contenedor-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.titulo-section {
+  font-size: 56px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.sub-titulo-section {
+  font-size: 28px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+}
+.contenedor-img {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
