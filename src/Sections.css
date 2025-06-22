@@ -10,8 +10,10 @@
     rgba(225, 222, 213, 1) 50%,
     rgba(252, 248, 239, 1) 100%
   );
-  height: 90vh;
-  margin-bottom: 8px;
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 30px 0px 30px 0px;
 }
 .contenedor-titulo {
   display: flex;
@@ -20,6 +22,7 @@
   justify-content: center;
   text-align: center;
   width: 100%;
+  margin-bottom: 24px;
 }
 
 .titulo-section {
@@ -27,7 +30,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
   font-weight: 600;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 .sub-titulo-section {
@@ -35,12 +38,30 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
   font-weight: 400;
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
 }
 .contenedor-img {
   width: 100%;
-  height: 50%;
+  height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 24px;
+  min-height: 120px; /* Ajusta según el tamaño de tu imagen */
+}
+
+.contenedor-descripcioninf {
+  margin-top: 16px;
+  min-height: 32px; /* Para que siempre haya espacio aunque no haya texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descripcioninf {
+  font-size: 23px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 400;
+  margin-top: 6px;
 }

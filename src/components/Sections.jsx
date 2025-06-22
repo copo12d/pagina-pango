@@ -1,7 +1,7 @@
 import '../Sections.css'
 import logo from '../assets/react.svg'
 
-export function Sections({titulo,subtitulo,descripcion}) {
+export function Sections({titulo, subtitulo, descripcionImg, visible, descripcioninf}) {
     return (
         <section className='bg-color-section'>
             <div className='contenedor-titulo'>
@@ -9,8 +9,13 @@ export function Sections({titulo,subtitulo,descripcion}) {
                 <p className='sub-titulo-section'>{subtitulo}</p>
             </div>
             <div className='contenedor-img'>
-                <img src={logo} alt={descripcion} />
+                <img src={logo} alt={descripcionImg} />
             </div>
+            {visible && descripcioninf && (
+                <div className='contenedor-descripcioninf'>
+                    <p className='descripcioninf'>{descripcioninf}</p>
+                </div>
+            )}
         </section>
     )
 }
