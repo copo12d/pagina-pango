@@ -2,8 +2,11 @@
 import '../App.css'
 export function General({children}) {
     return (
-        <section className='paren'>
+        
+        <section className='paren pd'>
            {children}
         </section>
     )
 }
+
+/* const sexo() => {} */
