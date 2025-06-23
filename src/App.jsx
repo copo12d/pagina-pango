@@ -2,6 +2,8 @@ import './App.css'
 import { LogoPango } from './components/LogoPango'
 import { Sections } from './components/Sections'
 import {General} from './components/general'
+import Footer from './components/footer'
+
 const franelas= [{
   id: 1,
   titulo: "Anime",
@@ -61,6 +63,7 @@ const franelasGeneral = [{
   }
 ];
 
+
 function App() {
 
 
@@ -101,6 +104,7 @@ function App() {
   
         ))}
         </General>
+      <Footer />
     </>
     
   )

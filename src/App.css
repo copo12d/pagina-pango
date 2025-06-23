@@ -24,7 +24,7 @@
   font-size: 1.1rem;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  font-weight: 700;
   color: #d14043;
   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
     sans-serif;
@@ -38,9 +38,89 @@
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-color: black !important;
+  /* background-color: black !important; */
   }
 
 .pd section{
   margin-bottom: 0px !important;
+}
+
+/* Footer */
+
+/* Estilos base del footer */
+.footer {
+  background-color: #111827; /* fondo oscuro */
+  color: white;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+}
+
+/* Contenedor general del contenido del footer */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+/* Título o marca del sitio */
+.footer-logo {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Enlaces principales del footer */
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #60a5fa; /* azul claro al pasar el mouse */
+}
+
+/* Contenedor de redes sociales */
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Estilo base para los íconos sociales */
+.social-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s;
+  filter: invert(1); /* hace blanco los SVG negros */
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Íconos individuales con background-image */
+.social-icon.facebook {
+  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg');
+}
+
+.social-icon.twitter {
+  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg');
+}
+
+.social-icon.instagram {
+  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg');
 }
