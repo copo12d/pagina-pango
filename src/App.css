@@ -29,3 +29,14 @@
   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
     sans-serif;
 }
+
+/* General CSS Change my ubication */
+
+.paren {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: black !important;
+  }

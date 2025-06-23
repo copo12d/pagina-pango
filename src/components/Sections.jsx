@@ -1,4 +1,4 @@
-/* import React from 'react' */
+import React from 'react'
 import '../Sections.css'
 /* import logo from '../assets/react.svg' */
 
@@ -13,7 +13,7 @@ export function Sections({titulo, subtitulo, descripcionImg, visible, descripcio
                 <img  
                 alt={descripcionImg} 
                 className='img' 
-                src={`src/assets/frane/${img}.png`}
+                src={(`src/assets/frane/${img}.png`)}
                 />
             </div>
             {visible && descripcioninf && (
