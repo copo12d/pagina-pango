@@ -1,6 +1,5 @@
-import React from 'react'
 import '../Sections.css'
-/* import logo from '../assets/react.svg' */
+
 
 export function Sections({titulo, subtitulo, descripcionImg, visible, descripcioninf,img}) {
     return (

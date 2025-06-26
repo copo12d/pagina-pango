@@ -3,6 +3,7 @@ import { LogoPango } from './components/LogoPango'
 import { Sections } from './components/Sections'
 import {General} from './components/general'
 import Footer from './components/footer'
+import { Hero } from './components/Hero'
 
 const franelas= [{
   id: 1,
@@ -78,6 +79,9 @@ function App() {
           <li>Contacto</li>
         </ul>
       </nav>   
+      <Hero 
+        titulo="Bienvenido a Pango"
+        />
       {franelas.map((franela) => ( 
         <Sections 
           key={franela.id}

@@ -12,27 +12,27 @@ export default function Footer() {
         <div className="footer-links">
           <a href="/about">Acerca</a>
           <a href="/services">Servicios</a>
-          <a href="https://www.xnxx.es/">Contacto</a>
+          <a href="">Contacto</a>
           <a href="/privacy">Privacidad</a>
         </div>
 
         <div className="footer-socials">
           <a
-            href="https://es.pornhub.com/"
+            href=""
             className="social-icon facebook"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
           />
           <a
-            href="https://www.porntube.com/"
+            href=""
             className="social-icon twitter"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
           />
           <a
-            href="https://es.xhamster.com/"
+            href=""
             className="social-icon instagram"
             target="_blank"
             rel="noopener noreferrer"

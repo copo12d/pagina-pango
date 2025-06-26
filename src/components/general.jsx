@@ -8,5 +8,3 @@ export function General({children}) {
         </section>
     )
 }
-
-/* const sexo() => {} */

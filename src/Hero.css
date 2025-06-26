@@ -1,0 +1,90 @@
+.hero {
+  position: relative;
+  background-color: #fefaf6;
+  padding: 4rem 2rem;
+  overflow: hidden;
+  text-align: left;
+  min-height: 73vh;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  margin-bottom: 10px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+.studio-name {
+  font-weight: bold;
+  color: #d14343;
+  margin: 0;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #d14343;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.hero-description {
+  font-size: 1rem;
+  color: #d14343;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+/* Nubes */
+.nube {
+  position: absolute;
+}
+
+.nube-top {
+  top: -166px;
+  left: 493px;
+  width: 62%;
+}
+
+.nube-bottom-left {
+  bottom: 0;
+  left: 0;
+  width: 30%;
+}
+
+.nube-bottom-right {
+  bottom: 0;
+  right: 0;
+  width: 30%;
+}
+
+.nube-bottom-right-2 {
+  top: -109px;
+  left: -126px;
+  width: 30%;
+}
+
+.hero-circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  background-color: #d14343;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+}
