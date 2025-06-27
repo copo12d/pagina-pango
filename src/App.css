@@ -7,6 +7,7 @@
   padding: 0px;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 .nav-items {
@@ -15,6 +16,11 @@
   align-items: center;
   gap: 16px;
   padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: #d14043;
+  font-weight: 700;
 }
 
 .nav-bar li {
@@ -39,9 +45,9 @@
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   /* background-color: black !important; */
-  }
+}
 
-.pd section{
+.pd section {
   margin-bottom: 0px !important;
 }
 
@@ -64,6 +70,8 @@
   align-items: center;
   gap: 1.5rem;
   text-align: center;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
 }
 
 /* Título o marca del sitio */
@@ -111,16 +119,19 @@
 .social-icon:hover {
   transform: scale(1.1);
 }
+.color-tlf {
+  color: #7e827d;
+}
 
 /* Íconos individuales con background-image */
 .social-icon.facebook {
-  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg');
+  background-image: url("https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg");
 }
 
 .social-icon.twitter {
-  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg');
+  background-image: url("https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg");
 }
 
 .social-icon.instagram {
-  background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg');
+  background-image: url("https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg");
 }

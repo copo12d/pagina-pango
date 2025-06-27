@@ -15,24 +15,14 @@ export default function Footer() {
           <a href="">Contacto</a>
           <a href="/privacy">Privacidad</a>
         </div>
+        <div id="footer-contact">
+          Telefono: <span className="color-tlf">+58 412-456-7890</span>
+        </div>
 
         <div className="footer-socials">
+          
           <a
-            href=""
-            className="social-icon facebook"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Facebook"
-          />
-          <a
-            href=""
-            className="social-icon twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-          />
-          <a
-            href=""
+            href="https://www.instagram.com/pangofashion/"
             className="social-icon instagram"
             target="_blank"
             rel="noopener noreferrer"

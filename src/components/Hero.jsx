@@ -5,7 +5,7 @@ import nube_abajo_izq from '../assets/nube-abajo-izq.svg';
 import nube_abajo_derecha from '../assets/nube-abj-derec.svg';
 export const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id='hero'>
       <div className="hero-content">
         <div className="logo-title">
             <LogoPango />
@@ -13,8 +13,14 @@ export const Hero = () => {
         </div>
         <h1 className="hero-title">PANGO <br /> FASHION</h1>
         <p className="hero-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          ¡Hola! somos Pango Fashion, tu nueva tienda favorita para franelas con impresion DTF.
+          Creemos que lucir diseños increíbles no tiene por qué romper tu alcancía.
         </p>
+      </div>
+      <div className='mira-pagina'>
+        <a className='estilo-btn' href='https://www.instagram.com/pangofashion/' target='_blank' rel='Instagram'>
+          Hecha un vistazo 
+        </a>
       </div>
       <div className='hero-circle'></div>
 

@@ -12,7 +12,8 @@ const franelas= [{
   descripcionImg: "Camisa de Itachi",
   visible: true,
   descripcioninf: "Hola, soy Itachi Uchiha",
-  img: 'itachi'
+  img: 'itachi',
+  beatiful: true
 }, {
   id: 2,
   titulo: "Video Juegos",
@@ -73,10 +74,10 @@ function App() {
       <nav className='nav-bar'>
         <ul className='nav-items'>
           <LogoPango />
-          <li>Inicio</li>
-          <li>Servicio</li>
-          <li>Productos</li>
-          <li>Contacto</li>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#Anime">Servicio</a></li>
+          <li><a href="">Productos</a></li>
+          <li><a href="#footer-contact">Contacto</a></li>
         </ul>
       </nav>   
       <Hero 
@@ -91,6 +92,7 @@ function App() {
           visible={franela.visible} 
           descripcioninf={franela.descripcioninf}
           img={franela.img}
+          beatiful={franela.beatiful}
         />
 
       ))}
